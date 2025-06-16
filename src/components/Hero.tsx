@@ -38,7 +38,12 @@ export default function Hero() {
 
   useEffect(() => {
     // Animate stats on mount
-    const animateValue = (start, end, duration, callback) => {
+    const animateValue = (
+      start: number,
+      end: number,
+      duration: number,
+      callback: (value: number) => void
+    ) => {
       const startTime = Date.now();
       const timer = setInterval(() => {
         const elapsed = Date.now() - startTime;
@@ -90,7 +95,7 @@ export default function Hero() {
           {/* Main Heading with Animation */}
           <div className="mb-8">
             <h1 className="text-5xl md:text-7xl font-extrabold text-white mb-4 leading-tight">
-              Nigeria's Premier
+              Nigeria&apos;s Premier
               <span className="block bg-gradient-to-r from-cyan-400 via-blue-400 to-purple-400 bg-clip-text text-transparent animate-pulse">
                 Digital Hub
               </span>

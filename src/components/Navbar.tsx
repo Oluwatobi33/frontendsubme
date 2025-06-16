@@ -8,7 +8,6 @@ import {
   Smartphone,
   GraduationCap,
   Zap,
-  Shield,
   ChevronDown,
   User,
   Wallet,
@@ -41,7 +40,7 @@ export default function Navbar() {
               <div className="flex flex-col">
                 <span className="text-xl font-bold text-white">DataHub</span>
                 <span className="text-xs text-blue-100 -mt-1">
-                  Nigeria's #1 Platform
+                  Nigeria&apos;s #1 Platform
                 </span>
               </div>
             </Link>
