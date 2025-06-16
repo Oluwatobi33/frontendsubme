@@ -1,4 +1,5 @@
 "use client";
+import CTA from "@/components/CTA";
 import Hero from "@/components/Hero";
 import Navbar from "@/components/Navbar";
 import Pricing from "@/components/Pricing";
@@ -15,6 +16,7 @@ export default function HomePage() {
       <Pricing />
       <WhyChooseUs />
       <Testimonials />
+      <CTA />
     </div>
   );
 }
