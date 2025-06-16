@@ -1,4 +1,5 @@
 "use client";
+import ContactUs from "@/components/ContactUs";
 import CTA from "@/components/CTA";
 import Hero from "@/components/Hero";
 import Navbar from "@/components/Navbar";
@@ -17,6 +18,7 @@ export default function HomePage() {
       <WhyChooseUs />
       <Testimonials />
       <CTA />
+      <ContactUs />
     </div>
   );
 }
