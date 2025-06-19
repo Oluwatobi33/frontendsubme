@@ -60,7 +60,7 @@ export default function CTA() {
 
           <Button
             size="lg"
-            variant="outline"
+            variant="ghost"
             className="group text-lg px-10 py-4 text-white border-2 border-white/30 hover:bg-white/10 hover:border-white/50 backdrop-blur-sm transition-all duration-300 transform hover:scale-105 shadow-lg"
           >
             <span className="flex items-center">
@@ -111,7 +111,9 @@ export default function CTA() {
               24/7
             </div>
             <div className="text-blue-100 font-medium">Customer Support</div>
-            <div className="text-blue-200 text-sm mt-2">We're here to help</div>
+            <div className="text-blue-200 text-sm mt-2">
+              We&apos;re here to help
+            </div>
           </div>
         </div>
 

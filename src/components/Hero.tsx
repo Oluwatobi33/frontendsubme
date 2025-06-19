@@ -90,7 +90,7 @@ export default function Hero() {
         ))}
       </div>
 
-      <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
+      <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-44 pt-20">
         <div className="text-center">
           {/* Main Heading with Animation */}
           <div className="mb-8">
@@ -144,7 +144,7 @@ export default function Hero() {
               <ArrowRight className="ml-3 h-5 w-5" />
             </Button>
             <Button
-              variant="outline"
+              variant="ghost"
               size="lg"
               className="text-lg px-10 py-4 border-2 border-white/30 text-white hover:bg-white/10 backdrop-blur-sm transform hover:scale-105 transition-all duration-200"
             >
